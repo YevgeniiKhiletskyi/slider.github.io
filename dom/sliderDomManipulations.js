@@ -1,6 +1,6 @@
-const left = document.querySelector(".left");
-const right = document.querySelector(".right");
-const itemsList = document.querySelector(".items");
+const left = document.querySelector("#left");
+const right = document.querySelector("#right");
+const itemsList = document.querySelector("#items");
 
 const loop = (direction, e) => {
   e.preventDefault();
