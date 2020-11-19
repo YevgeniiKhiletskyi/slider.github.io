@@ -1,0 +1,37 @@
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+//breacpoints
+//$tablets: 768px;
+//$phones: 480px;
+
+//colors
+//$blue: #61C4D9;
+$darkGreen: #0b4d3c;
+$green: #497870;
+
+
+//z-indexes
+//$z-fixed-menu: 100;
+
+//function
+
+
+//normalize
+@import url("normalize/normalize.css");
+
+//setups
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap");
+@import "layout/layout.scss";
+
+
+
+//components
+@import 'components/slider.scss';
+@import 'components/btn.scss';
+
+
+
+//js
+//@import 'common/slider.js';
+
